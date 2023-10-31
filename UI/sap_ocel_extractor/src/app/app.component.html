@@ -1,0 +1,47 @@
+<!--h1>SAP OCEL EXTRACTOR</h1>
+<h2>Available SAP tables</h2>
+<ul>
+  <li *ngFor="let table of availableTables">{{ table }}</li>
+</ul>
+
+<h2>Select Tables</h2>
+<textarea [(ngModel)]="selectedTables" placeholder="E.g., EKKO,EKPO,..." rows="5"></textarea>
+
+<button (click)="processTables()">Process Tables</button>
+
+<button (click)="generateOCEL()">Generate OCEL</button-->
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <div class="container-fluid h-100">
+      <!-- Header -->
+      <header class="mb-5">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <span class="navbar-brand mb-0 h1">SAP OCEL EXTRACTOR</span>
+          </nav>
+      </header>
+  
+      <!-- Content -->
+      <section class="row h-75">
+          <!-- Available SAP Tables -->
+          <div class="col-6">
+              <h2>Available SAP tables</h2>
+              <div class="sap-tables-container" style="max-height:300px; overflow-y:auto;">
+                  <ul class="list-group">
+                      <li class="list-group-item" *ngFor="let table of availableTables">{{ table }}</li>
+                  </ul>
+              </div>
+          </div>
+  
+          <!-- User Input Section -->
+          <div class="col-6">
+              <h2>Select Tables</h2>
+              <textarea class="form-control h-75" [(ngModel)]="selectedTables" placeholder="E.g., EKKO,EKPO,..." rows="5"></textarea>
+              <div class="mt-4">
+                  <!-- <button class="btn btn-primary mr-2" (click)="processTables()">Process Tables</button> -->
+                  <button class="btn btn-success" (click)="generateOCEL()">Generate OCEL</button>
+              </div>
+          </div>
+      </section>
+  </div>
+  

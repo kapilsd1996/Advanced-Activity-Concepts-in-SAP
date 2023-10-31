@@ -1,0 +1,53 @@
+{
+    "tables": [
+      {
+        "table_name": "EKKO",
+        "timestamp_columns": ["AEDAT"]
+      },
+      {
+        "table_name": "EBAN",
+        "timestamp_columns": ["BADAT"]
+      },
+      {
+        "table_name": "RBKP",
+        "timestamp_columns": ["CPUDT", "CPUTM"]
+      },
+      {
+        "table_name": "BKPF",
+        "timestamp_columns": ["CPUDT", "CPUTM"]
+      },
+      {
+        "table_name": "MARA",
+        "timestamp_columns": ["ERSDA", "LAEDA"]
+      },
+      {
+        "table_name": "VBFA",
+        "timestamp_columns": ["ERDAT", "ERZET"]
+      },
+      {
+        "table_name": "LIKP",
+        "timestamp_columns": ["ERDAT", "ERZET"]
+      },
+      {
+        "table_name": "EKBE",
+        "timestamp_columns": ["BUDAT"]
+      },
+      {
+        "table_name": "MKPF",
+        "timestamp_columns": ["CPUDT", "CPUTM"]
+      },
+      {
+        "table_name": "EKET",
+        "timestamp_columns": ["CPUDT", "CPUTM"]
+      },
+      {
+        "table_name": "EBKN",
+        "timestamp_columns": ["ERDAT"]
+      },
+      {
+        "table_name": "BSEG",
+        "timestamp_columns": ["AUGDT"]
+      }
+    ]
+  }
+  

@@ -1,0 +1,343 @@
+Category Number,Column Name,Category,Explanation,Table Name
+0,MANDT,CASEID,Client (Identifying information for the case or process instance),BKPF
+0,BUKRS,Activity,Company Code (Potentially an activity),BKPF
+0,BELNR,CASEID,Accounting Document Number (Identifying information for the case or process instance),BKPF
+0,GJAHR,Timestamp,Fiscal Year (Timestamp or date information),BKPF
+2,BLART,Activity,Document Type (Potentially an activity),BKPF
+1,BLDAT,Timestamp,Document Date (Timestamp or date information),BKPF
+1,BUDAT,Timestamp,Posting Date in the Document (Timestamp or date information),BKPF
+1,MONAT,Timestamp,Posting Key (Timestamp or date information),BKPF
+1,CPUDT,Timestamp,Day On Which Accounting Document Was Entered (Timestamp or date information),BKPF
+1,CPUTM,Timestamp,Time of Entry (Timestamp or time information),BKPF
+2,AEDAT,Timestamp,Date of Last Change (Timestamp or date information),BKPF
+2,UPDDT,Timestamp,Update Date (Timestamp or date information),BKPF
+2,WWERT,Activity,Currency Amount (Potentially an activity),BKPF
+3,USNAM,Activity,User Who Made the Last Change (Potentially an activity),BKPF
+2,TCODE,Activity,Transaction Code (Potentially an activity),BKPF
+2,BVORG,Activity,Commitment Update Origin (Potentially an activity),BKPF
+3,XBLNR,Activity,Reference Document Number (Potentially an activity),BKPF
+2,DBBLG,Activity,Document Number of the Transaction Record (Potentially an activity),BKPF
+2,STBLG,Activity,Document Number of the Transfer Posting (Potentially an activity),BKPF
+3,STJAH,Timestamp,Year of the Transfer Posting Document (Timestamp or date information),BKPF
+3,BKTXT,Activity,Document Header Text (Potentially an activity),BKPF
+3,WAERS,Activity,Currency Key (Potentially an activity),BKPF
+3,KURSF,Activity,Exchange Rate (Potentially an activity),BKPF
+3,KZWRS,Activity,Revaluation Exchange Rate (Potentially an activity),BKPF
+3,KZKRS,Activity,Parallel Valuation Exchange Rate (Potentially an activity),BKPF
+2,BSTAT,Activity,Document Status (Potentially an activity),BKPF
+2,XNETB,Activity,Indicator for Posting with Reference (Potentially an activity),BKPF
+2,FRATH,Activity,Indicator for Foreign Exchange Rate (Potentially an activity),BKPF
+2,XRUEB,Activity,Indicator: Post to Document (Potentially an activity),BKPF
+2,GLVOR,Activity,Indicator: Manual Clearing (Potentially an activity),BKPF
+3,GRPID,Activity,Data Medium Group (Potentially an activity),BKPF
+3,DOKID,Activity,Document Identification (Potentially an activity),BKPF
+3,ARCID,Activity,Archive ID (Potentially an activity),BKPF
+3,IBLAR,Activity,Indicator: Archive Development (Potentially an activity),BKPF
+2,AWTYP,Activity,Reference Procedure for Document Entry (Potentially an activity),BKPF
+2,AWKEY,Activity,Reference Key for Line Item (Potentially an activity),BKPF
+3,FIKRS,Activity,Financial Management Area (Potentially an activity),BKPF
+3,HWAER,Activity,Local Currency (Potentially an activity),BKPF
+3,HWAE2,Activity,2nd Local Currency (Potentially an activity),BKPF
+3,HWAE3,Activity,3rd Local Currency (Potentially an activity),BKPF
+3,KURS2,Activity,Exchange Rate for 2nd Local Currency (Potentially an activity),BKPF
+3,KURS3,Activity,Exchange Rate for 3rd Local Currency (Potentially an activity),BKPF
+3,BASW2,Activity,2nd Local Currency Translation Method (Potentially an activity),BKPF
+3,BASW3,Activity,3rd Local Currency Translation Method (Potentially an activity),BKPF
+2,UMRD2,Activity,2nd Local Currency Translation Method (Potentially an activity),BKPF
+2,UMRD3,Activity,3rd Local Currency Translation Method (Potentially an activity),BKPF
+2,XSTOV,Activity,Indicator: Carry Out One-Time Posting (Potentially an activity),BKPF
+2,STODT,Timestamp,Date of Update (Timestamp or date information),BKPF
+2,XMWST,Activity,Amount in 2nd Local Currency (Potentially an activity),BKPF
+3,CURT2,Activity,2nd Local Currency (Potentially an activity),BKPF
+0,MANDT,CASEID,Client (Identifying information for the case or process instance),Eban
+0,BANFN,CASEID,Purchase Requisition Number (Identifying information for the case or process instance),Eban
+0,BNFPO,Activity,Item Number (Potentially an activity),Eban
+3,BSART,Activity,Document Type (Potentially an activity),Eban
+2,BSTYP,Activity,Purchasing Document Category (Potentially an activity),Eban
+2,BSAKZ,Activity,Payment Method (Potentially an activity),Eban
+2,LOEKZ,Activity,Deletion Indicator (Potentially an activity),Eban
+2,STATU,Activity,Status of Purchasing Document (Potentially an activity),Eban
+2,ESTKZ,Activity,Release Indicator (Potentially an activity),Eban
+2,FRGKZ,Activity,Release Strategy (Potentially an activity),Eban
+2,FRGZU,Activity,Release Group (Potentially an activity),Eban
+2,FRGST,Activity,Release Status (Potentially an activity),Eban
+3,EKGRP,Activity,Purchasing Group (Potentially an activity),Eban
+3,ERNAM,Activity,Created By (Potentially an activity),Eban
+1,ERDAT,Timestamp,Created On Date (Timestamp or date information),Eban
+3,AFNAM,Activity,Changed By (Potentially an activity),Eban
+3,TXZ01,Activity,Short Text (Potentially an activity),Eban
+2,MATNR,Activity,Material Number (Potentially an activity),Eban
+3,EMATN,Activity,Material External ID (Potentially an activity),Eban
+3,WERKS,Activity,Plant (Potentially an activity),Eban
+3,LGORT,Activity,Storage Location (Potentially an activity),Eban
+2,BEDNR,Activity,Requirement Tracking Number (Potentially an activity),Eban
+3,MATKL,Activity,Material Group (Potentially an activity),Eban
+3,RESWK,Activity,Reservation Number (Potentially an activity),Eban
+3,MENGE,Activity,Order Quantity (Potentially an activity),Eban
+3,MEINS,Activity,Order Unit (Potentially an activity),Eban
+2,BUMNG,Activity,Target Quantity (Potentially an activity),Eban
+2,BADAT,Activity,Delivery Date (Potentially an activity),Eban
+2,LPEIN,Activity,Price Unit (Potentially an activity),Eban
+2,LFDAT,Timestamp,Delivery Date (Timestamp or date information),Eban
+2,FRGDT,Activity,Release Date (Potentially an activity),Eban
+2,WEBAZ,Activity,Goods Receipt Processing Time (Potentially an activity),Eban
+3,PREIS,Activity,Price (Potentially an activity),Eban
+3,PEINH,Activity,Price Unit (Potentially an activity),Eban
+3,PSTYP,Activity,Item Category (Potentially an activity),Eban
+2,KNTTP,Activity,Account Assignment Category (Potentially an activity),Eban
+2,KZVBR,Activity,Consumption Posting (Potentially an activity),Eban
+2,KFLAG,Activity,Indicator for Account Assignment (Potentially an activity),Eban
+2,VRTKZ,Activity,Shipping Instruction Category (Potentially an activity),Eban
+2,TWRKZ,Activity,Trading Goods Indicator (Potentially an activity),Eban
+2,WEPOS,Activity,Item Number in Goods Movement (Potentially an activity),Eban
+2,WEUNB,Activity,Unloading Point (Potentially an activity),Eban
+2,REPOS,Activity,Receiving Point (Potentially an activity),Eban
+3,LIFNR,Activity,Vendor Number (Potentially an activity),Eban
+3,FLIEF,Activity,Vendor Subrange (Potentially an activity),Eban
+3,EKORG,Activity,Purchasing Organization (Potentially an activity),Eban
+2,VRTYP,Activity,Shipping Instruction Type (Potentially an activity),Eban
+3,KONNR,Activity,Contract Number (Potentially an activity),Eban
+3,KTPNR,Activity,Account Assignment Key (Potentially an activity),Eban
+3,INFNR,Activity,Vendor Subrange (Potentially an activity),Eban
+0,MANDT,CASEID,Client (Identifying information for the case or process instance),EKKO
+0,EBELN,CASEID,Purchasing Document Number (Identifying information for the case or process instance),EKKO
+2,AEDAT,Timestamp,Change Date (Timestamp or date information),EKKO
+1,BEDAT,Timestamp,Document Date (Timestamp or date information),EKKO
+1,KDATB,Timestamp,Start of Validity Date (Timestamp or date information),EKKO
+1,KDATE,Timestamp,End of Validity Date (Timestamp or date information),EKKO
+1,BWBDT,Timestamp,Invoice Date (Timestamp or date information),EKKO
+2,ANGDT,Timestamp,Document Date (Purchasing) (Timestamp or date information),EKKO
+2,BNDDT,Timestamp,PO Date (Delivery Note) (Timestamp or date information),EKKO
+1,GWLDT,Timestamp,Goods Issue Date (Timestamp or date information),EKKO
+2,BSTYP,Activity,Purchasing Document Category (Potentially an activity),EKKO
+3,BSART,Activity,Document Type (Potentially an activity),EKKO
+2,BSAKZ,Activity,Payment Method (Potentially an activity),EKKO
+2,LOEKZ,Activity,Deletion Indicator (Potentially an activity),EKKO
+2,STATU,Activity,Status of Purchasing Document (Potentially an activity),EKKO
+3,LPONR,Activity,Vendor's Purchase Order Number (Potentially an activity),EKKO
+3,SPRA S,Activity,Language Key (Potentially an activity),EKKO
+2,ZTERM,Activity,Terms of Payment Key (Potentially an activity),EKKO
+2,ZBD1T,Activity,Baseline Date 1 (Potentially an activity),EKKO
+2,ZBD2T,Activity,Baseline Date 2 (Potentially an activity),EKKO
+2,ZBD3T,Activity,Baseline Date 3 (Potentially an activity),EKKO
+2,ZBD1P,Activity,Baseline Date 1 (Planned) (Potentially an activity),EKKO
+2,ZBD2P,Activity,Baseline Date 2 (Planned) (Potentially an activity),EKKO
+3,EKORG,Activity,Purchasing Organization (Potentially an activity),EKKO
+3,EKGRP,Activity,Purchasing Group (Potentially an activity),EKKO
+3,WAERS,Activity,Document Currency (Potentially an activity),EKKO
+3,WKURS,Activity,Exchange Rate (Potentially an activity),EKKO
+2,KUFIX,Activity,Fixed Exchange Rate (Potentially an activity),EKKO
+3,AUSNR,Activity,Customer Number at Vendor (Potentially an activity),EKKO
+3,ANGNR,Activity,Vendor Account Number (Potentially an activity),EKKO
+2,IHRAN,Activity,Vendor's Salesperson (Potentially an activity),EKKO
+3,IHREZ,Activity,Vendor's Contact Person (Potentially an activity),EKKO
+3,VERKF,Activity,Vendor's Name (Potentially an activity),EKKO
+3,TELF1,Activity,Vendor's Telephone Number (Potentially an activity),EKKO
+3,LLIEF,Activity,Vendor's Location (Potentially an activity),EKKO
+3,KUNNR,Activity,Customer Number (Potentially an activity),EKKO
+3,KONNR,Activity,Contract Number (Potentially an activity),EKKO
+3,ABGRU,Activity,Reason for Cancellation (Potentially an activity),EKKO
+2,AUTLF,Activity,Data Medium Exchange (Potentially an activity),EKKO
+2,WEAKT,Activity,Vendor Payment Terms (Potentially an activity),EKKO
+3,RESWK,Activity,Reservation Number (Potentially an activity),EKKO
+3,LBLIF,Activity,Delivery Location (Potentially an activity),EKKO
+3,INCO1,Activity,Incoterms Location 1 (Potentially an activity),EKKO
+3,INCO2,Activity,Incoterms Location 2 (Potentially an activity),EKKO
+3,KTWRT,Activity,Net Order Value (Potentially an activity),EKKO
+3,SUBMI,Activity,Subcontracting Indicator (Potentially an activity),EKKO
+3,PINCR,Unimportant,PO Item Number (Not directly contributing to identifying cases or activities),EKKO
+0,MANDT,CASEID,Client (Identifying information for the case or process instance),LIKP
+0,VBELN,CASEID,Delivery Document Number (Identifying information for the case or process instance),LIKP
+3,ERNAM,Activity,Created By (Potentially an activity),LIKP
+1,ERZET,Activity,Time of Entry (Potentially an activity),LIKP
+1,ERDAT,Timestamp,Created On Date (Timestamp or date information),LIKP
+3,BZIRK,Activity,Sales District (Potentially an activity),LIKP
+2,VSTEL,Activity,Shipping Point (Potentially an activity),LIKP
+3,VKORG,Activity,Sales Organization (Potentially an activity),LIKP
+2,LFART,Activity,Delivery Type (Potentially an activity),LIKP
+2,AUTLF,Activity,Data Medium Exchange (Potentially an activity),LIKP
+2,KZAZU,Activity,Automatic Goods Movement (Potentially an activity),LIKP
+1,WADAT,Timestamp,Loading Date (Timestamp or date information),LIKP
+1,LDDAT,Timestamp,Unloading Date (Timestamp or date information),LIKP
+1,TDDAT,Timestamp,Transportation Planning Date (Timestamp or date information),LIKP
+2,LFDAT,Timestamp,Delivery Date (Timestamp or date information),LIKP
+1,KODAT,Timestamp,Shipment Date (Timestamp or date information),LIKP
+2,ABLAD,Activity,Unloading Point (Potentially an activity),LIKP
+3,INCO1,Activity,Incoterms Location 1 (Potentially an activity),LIKP
+3,INCO2,Activity,Incoterms Location 2 (Potentially an activity),LIKP
+2,EXPKZ,Activity,Export Indicator (Potentially an activity),LIKP
+2,ROUTE,Activity,Route (Potentially an activity),LIKP
+2,FAKSK,Activity,Billing Block (Potentially an activity),LIKP
+2,LIFSK,Activity,Delivery Block (Potentially an activity),LIKP
+2,VBTYP,Activity,Forwarding Agent (Potentially an activity),LIKP
+2,KNFAK,Activity,Invoicing Party (Potentially an activity),LIKP
+2,TPQUA,Activity,Number of Handling Units (Potentially an activity),LIKP
+2,TPGRP,Activity,Handling Unit Group (Potentially an activity),LIKP
+2,LPRIO,Activity,Loading Priority (Potentially an activity),LIKP
+2,VSBED,Activity,Shipping Condition (Potentially an activity),LIKP
+3,KUNNR,Activity,Sold-to Party (Potentially an activity),LIKP
+2,KUNAG,Activity,Ship-to Party (Potentially an activity),LIKP
+3,KDGRP,Activity,Customer Group (Potentially an activity),LIKP
+2,STZKL,Activity,Shipping Conditions Category (Potentially an activity),LIKP
+2,STZZU,Activity,Conditions for Shipping Conditions (Potentially an activity),LIKP
+2,BTGEW,Activity,Total Gross Weight (Potentially an activity),LIKP
+2,NTGEW,Activity,Net Weight (Potentially an activity),LIKP
+2,GEWEI,Activity,Weight Unit (Potentially an activity),LIKP
+2,VOLUM,Activity,Volume (Potentially an activity),LIKP
+2,VOLEH,Activity,Volume Unit (Potentially an activity),LIKP
+2,ANZPK,Activity,Number of Packages (Potentially an activity),LIKP
+2,BEROT,Activity,Means of Transport (Potentially an activity),LIKP
+2,LFUHR,Activity,Loading Hours (Potentially an activity),LIKP
+2,GRULG,Activity,Number of Loading Groups (Potentially an activity),LIKP
+2,LSTEL,Activity,Loading Point (Potentially an activity),LIKP
+2,TRAGR,Activity,Transportation Group (Potentially an activity),LIKP
+2,FKA RV,Activity,Billing Type (Potentially an activity),LIKP
+1,FKDAT,Timestamp,Billing Date (Timestamp or date information),LIKP
+2,PERFK,Activity,Invoice Combination Indicator (Potentially an activity),LIKP
+2,ROUTA,Activity,Route Schedule (Potentially an activity),LIKP
+2,STAFO,Activity,Stacking Factor (Potentially an activity),LIKP
+0,MANDT,CASEID,Client (Identifying information for the case or process instance),MKPF
+0,MBLNR,CASEID,Material Document Number (Identifying information for the case or process instance),MKPF
+0,MJAHR,Timestamp,Document Year (Timestamp or date information),MKPF
+2,VGART,Activity,Transaction Type (Potentially an activity),MKPF
+2,BLART,Activity,Document Type (Potentially an activity),MKPF
+2,BLAUM,Activity,Document Number for Transfer Posting (Potentially an activity),MKPF
+1,BLDAT,Timestamp,Document Date (Timestamp or date information),MKPF
+1,BUDAT,Timestamp,Posting Date in the Document (Timestamp or date information),MKPF
+1,CPUDT,Timestamp,Day On Which Accounting Document Was Entered (Timestamp or date information),MKPF
+1,CPUTM,Timestamp,Time of Entry (Timestamp or date information),MKPF
+2,AEDAT,Timestamp,Last Changed On (Timestamp or date information),MKPF
+3,USNAM,Activity,User Who Made the Last Change (Potentially an activity),MKPF
+2,TCODE,Activity,Transaction Code (Potentially an activity),MKPF
+3,XBLNR,Activity,Reference Document Number (Potentially an activity),MKPF
+3,BKTXT,Activity,Document Header Text (Potentially an activity),MKPF
+2,FRATH,Activity,Indicator: Held Document Blocked for Payment (Potentially an activity),MKPF
+2,FRBNR,Activity,Number of the Invoice the Entry Was Generated from (Potentially an activity),MKPF
+2,WEVER,Activity,Goods Movement Data from Stock Transfer (Potentially an activity),MKPF
+2,XABLN,Activity,Number of the Invoice Document (Potentially an activity),MKPF
+3,AWSYS,Activity,Logical System (Potentially an activity),MKPF
+3,BLA2D,Activity,Document Number of Transfer Posting (Potentially an activity),MKPF
+2,TCODE2,Activity,Transaction Code (Secondary) (Potentially an activity),MKPF
+2,BFWMS,Activity,Reference Document (Potentially an activity),MKPF
+2,EXNUM,Activity,External Number of Material Document (Potentially an activity),MKPF
+2,SPE_BUDAT_UHR,Activity,Posting Date of the Entry in the User's Time Zone (Potentially an activity),MKPF
+2,SPE_BUDAT_ZONE,Activity,Time Zone of the Posting Date (Potentially an activity),MKPF
+2,LE_VBELN,Activity,Delivery (Shipment) Number (Potentially an activity),MKPF
+2,SPE_LOGSYS,Activity,Logical System of Logical Destination (Potentially an activity),MKPF
+2,SPE_MDNUM_EWM,Activity,Material Document Number in EWM (Potentially an activity),MKPF
+3,GTS_CUSREF_NO,Activity,Customer Reference Number (Potentially an activity),MKPF
+2,FLS_RSTO,Activity,Reversal Entry for Handling Unit Management (Potentially an activity),MKPF
+2,MSR_ACTIVE,Activity,Measurement Document Active (Potentially an activity),MKPF
+3,TICKET_KEY,Activity,Ticket Key (Potentially an activity),MKPF
+3,KNUMV,Activity,Voucher Number (Potentially an activity),MKPF
+3,LFSNR,Activity,Record Number for EHS Data (Potentially an activity),MKPF
+2,OIB_BLTIME,Activity,Time of Material Document Posting (Potentially an activity),MKPF
+0,MANDT,CASEID,Client (Identifying information for the case or process instance),RBKP
+0,BELNR,CASEID,Accounting Document Number (Identifying information for the case or process instance),RBKP
+0,GJAHR,Timestamp,Fiscal Year (Timestamp or date information),RBKP
+2,BLART,Activity,Document Type (Potentially an activity),RBKP
+1,BLDAT,Timestamp,Document Date (Timestamp or date information),RBKP
+1,BUDAT,Timestamp,Posting Date in the Document (Timestamp or date information),RBKP
+3,USNAM,Activity,User Who Made the Last Change (Potentially an activity),RBKP
+2,TCODE,Activity,Transaction Code (Potentially an activity),RBKP
+1,CPUDT,Timestamp,Day On Which Accounting Document Was Entered (Timestamp or date information),RBKP
+1,CPUTM,Timestamp,Time of Entry (Timestamp or date information),RBKP
+2,VGART,Activity,Transaction Type (Potentially an activity),RBKP
+3,XBLNR,Activity,Reference Document Number (Potentially an activity),RBKP
+0,BUKRS,Activity,Company Code (Potentially an activity),RBKP
+3,LIFNR,Activity,Vendor Number (Potentially an activity),RBKP
+3,WAERS,Activity,Currency Key (Potentially an activity),RBKP
+3,KURSF,Activity,Exchange Rate (Potentially an activity),RBKP
+3,RMWWR,Activity,Total Amount in Document Currency (Potentially an activity),RBKP
+2,BEZNK,Activity,Reversal of Payment (Potentially an activity),RBKP
+3,WMWST1,Activity,Total Amount in Local Currency (Potentially an activity),RBKP
+3,MWSKZ1,Activity,Tax Code (Potentially an activity),RBKP
+3,WMWST2,Activity,Total Amount in Second Local Currency (Potentially an activity),RBKP
+3,MWSKZ2,Activity,Tax Code (2nd Local Currency) (Potentially an activity),RBKP
+2,ZTERM,Activity,Terms of Payment Key (Potentially an activity),RBKP
+2,ZBD1T,Activity,Cash Discount Days 1 (Potentially an activity),RBKP
+2,ZBD1P,Activity,Cash Discount Percentage 1 (Potentially an activity),RBKP
+2,ZBD2T,Activity,Cash Discount Days 2 (Potentially an activity),RBKP
+2,ZBD2P,Activity,Cash Discount Percentage 2 (Potentially an activity),RBKP
+2,ZBD3T,Activity,Net Payment Days (Potentially an activity),RBKP
+3,WSKTO,Activity,Cash Discount Days (Potentially an activity),RBKP
+2,XRECH,Activity,Reference Document Type (Potentially an activity),RBKP
+3,BKTXT,Activity,Document Header Text (Potentially an activity),RBKP
+3,SAPRL,Activity,Reason for Movement (Potentially an activity),RBKP
+3,LOGSYS,Activity,Logical System (Potentially an activity),RBKP
+2,XMWST,Activity,Amount in 2nd Local Currency (Potentially an activity),RBKP
+2,STBLG,Activity,Document Number of the Transfer Posting (Potentially an activity),RBKP
+3,STJAH,Timestamp,Year of the Transfer Posting Document (Timestamp or date information),RBKP
+3,MWSKZ_BNK,Activity,Tax Code for Bank Charges (Potentially an activity),RBKP
+3,TXJCD_BNK,Activity,Tax Jurisdiction Code for Bank Charges (Potentially an activity),RBKP
+2,IVTYP,Activity,Invoice Type (Potentially an activity),RBKP
+3,XRBTX,Activity,Reference Procedure (Potentially an activity),RBKP
+2,REPART,Activity,Repetitive Manufacturing Indicator (Potentially an activity),RBKP
+2,RBSTAT,Activity,Status of Reversal (Potentially an activity),RBKP
+2,KNUMVE,Activity,Number of the Accounting Document to Be Reversed (Potentially an activity),RBKP
+2,KNUMVL,Activity,Number of the Last Document for Reversal (Potentially an activity),RBKP
+2,ARKUEN,Activity,Indicator: Document Has Been Canceled for Accounting Reasons (Potentially an activity),RBKP
+2,ARKUEMW,Activity,Indicator: Document Has Been Canceled for Accounting Reasons (2nd Local Currency) (Potentially an activity),RBKP
+2,MAKZN,Activity,Origin Indicator for Consolidation (Potentially an activity),RBKP
+3,MAKZMW,Activity,Indicator for 2nd Local Currency (Potentially an activity),RBKP
+2,LIEFFN,Activity,Delivery Note Number (Potentially an activity),RBKP
+3,LIEFFMW,Activity,ID: Delivery Note Note Amount (Potentially an activity,RBKP
+0,MANDT,CASEID,Client (Identifying information for the case or process instance),VBAK
+0,VBELN,CASEID,Billing Document Number (Identifying information for the case or process instance),VBAK
+1,ERDAT,Timestamp,Date on Which Record Was Created (Timestamp or date information),VBAK
+1,ERZET,Timestamp,Entry Time (Timestamp or time information),VBAK
+3,ERNAM,Unimportant,Name of Person Who Created the Object (Potentially an activity),VBAK
+2,ANGDT,Timestamp,Document Date for Printing Invoices (Timestamp or date information),VBAK
+2,BNDDT,Timestamp,Due Date for Printing Invoices (Timestamp or date information),VBAK
+1,AUDAT,Timestamp,Posting Date for Printing Invoices (Timestamp or date information),VBAK
+2,VBTYP,Activity,Sales Document Category (Potentially an activity),VBAK
+0,MANDT,CASEID,Client (Identifying information for the case or process instance),VBRK
+0,VBELN,CASEID,Billing Document Number (Identifying information for the case or process instance),VBRK
+3,FKART,Activity,Billing Type (Potentially an activity),VBRK
+2,FKTYP,Activity,Billing Category (Potentially an activity),VBRK
+2,VBTYP,Activity,Sales Document Category (Potentially an activity),VBRK
+3,WAERK,Activity,Currency Key (Potentially an activity),VBRK
+3,VKORG,Activity,Sales Organization (Potentially an activity),VBRK
+3,VTWEG,Activity,Distribution Channel (Potentially an activity),VBRK
+3,KALSM,Activity,Account Determination Procedure (Potentially an activity),VBRK
+3,KNUMV,Activity,Voucher Number (Potentially an activity),VBRK
+2,VSBED,Activity,Shipping Condition (Potentially an activity),VBRK
+1,FKDAT,Timestamp,Billing Date (Timestamp or date information),VBRK
+0,BELNR,Activity,Accounting Document Number (Potentially an activity),VBRK
+0,GJAHR,Timestamp,Fiscal Year (Timestamp or date information),VBRK
+3,POPER,Activity,Posting Period (Potentially an activity),VBRK
+3,KONDA,Activity,Conditions for Dates (Potentially an activity),VBRK
+3,KDGRP,Activity,Customer Group (Potentially an activity),VBRK
+3,BZIRK,Activity,Sales District (Potentially an activity),VBRK
+3,PLTYP,Activity,Price List Type (Potentially an activity),VBRK
+3,INCO1,Activity,Incoterms Part 1 (Potentially an activity),VBRK
+3,INCO2,Activity,Incoterms Part 2 (Potentially an activity),VBRK
+2,EXPKZ,Activity,Export Indicator (Potentially an activity),VBRK
+2,RFBSK,Activity,Payment Block Key (Potentially an activity),VBRK
+2,MRNKZ,Activity,Indicator for Sequential Number (Potentially an activity),VBRK
+3,KURRF,Activity,Conversion Rate for Foreign Currency (Potentially an activity),VBRK
+3,CPKUR,Activity,Conversion Rate (Secondary) (Potentially an activity),VBRK
+3,VALTG,Activity,Value Date (Potentially an activity),VBRK
+3,VALDT,Activity,Date on Which Payment Should Be Executed (Potentially an activity),VBRK
+2,ZTERM,Activity,Terms of Payment Key (Potentially an activity),VBRK
+3,ZLSCH,Activity,Payment Method (Potentially an activity),VBRK
+2,KTGRD,Activity,Credit Group (Potentially an activity),VBRK
+3,LAND1,Activity,Country Key (Potentially an activity),VBRK
+3,REGIO,Activity,"Region (State, Province, County) (Potentially an activity)",VBRK
+3,COUNC,Activity,District (Potentially an activity),VBRK
+3,CITYC,Activity,City Code (Potentially an activity),VBRK
+0,BUKRS,Activity,Company Code (Potentially an activity),VBRK
+3,TAXK1,Activity,Tax Category (Potentially an activity),VBRK
+3,TAXK2,Activity,Tax Category 2 (Potentially an activity),VBRK
+3,TAXK3,Activity,Tax Category 3 (Potentially an activity),VBRK
+3,TAXK4,Activity,Tax Category 4 (Potentially an activity),VBRK
+3,TAXK5,Activity,Tax Category 5 (Potentially an activity),VBRK
+3,TAXK6,Activity,Tax Category 6 (Potentially an activity),VBRK
+3,TAXK7,Activity,Tax Category 7 (Potentially an activity),VBRK
+3,TAXK8,Activity,Tax Category 8 (Potentially an activity),VBRK
+3,TAXK9,Activity,Tax Category 9 (Potentially an activity),VBRK
+3,NETWR,Activity,Net Amount (Potentially an activity),VBRK
+3,ZUKRI,Activity,Indicator: Bill of Exchange Bill Received (Potentially an activity),VBRK
+3,ERNAM,Activity,Name of Person Who Created the Object (Potentially an activity),VBRK
+1,ERZET,Activity,Entry Time (Potentially an activity),VBRK
+1,ERDAT,Activity,Date on Which Record Was Created (Potentially an activity),VBRK
