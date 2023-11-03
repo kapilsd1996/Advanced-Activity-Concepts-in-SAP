@@ -1632,7 +1632,7 @@ def post_processing(raw_ocel):
 # # Filter input tables
 
 # %%
-dd02v = pd.read_csv('D:\OneDrive - Students RWTH Aachen University\PADS thesis topic\SAPDataset\DD02V.csv', encoding= 'unicode_escape')
+# dd02v = pd.read_csv('D:\OneDrive - Students RWTH Aachen University\PADS thesis topic\SAPDataset\DD02V.csv', encoding= 'unicode_escape')
 def filter_input_tables(input_table_list):
     src_tables = []
     table_name_dict = {}
